@@ -1,15 +1,55 @@
 /*NAV BAR*/
-
+.navbar-brand {
+    font-size: 1.5rem;
+}
+#real-time {
+    color: white;
+    margin-top: 15px;
+    font-size: 1.25rem;
+    display: inline-block;
+}
 
 /*CONTENT*/
 body {
     background-image: url("concrete-texture.png");
 }
 
-.date-box, .save-box {
-    border: 2px solid black;
-    background-color: white;
-    margin: 30px 10px;
+.date-box {
+    margin-top: 45px;
+    text-align: right;
+    font-size: 20px;
 }
 
-/*FOOTER*/
+.form-control {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.btn {
+    margin-left: 20px;
+    margin-top: 30px;
+    float: right;
+}
+
+.btn-secondary {
+    padding: 20px;
+}
+
+
+/*CLASS CHANGES BASED ON TIME*/
+
+.past-time {
+    background-color: lightsalmon;
+    border: 2px dashed black;
+    color: white;
+}
+
+.now-time {
+    background-color: grey;
+}
+
+/*Present will look the way it does now*/
+
+.future-time {
+    background-color: lightgreen;
+}
