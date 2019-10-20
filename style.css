@@ -28,7 +28,6 @@ body {
 .btn {
     margin-left: 20px;
     margin-top: 30px;
-    float: right;
 }
 
 .btn-secondary {
@@ -41,13 +40,15 @@ body {
 /*IF TASKS ARE PAST CURRENT TIME*/
 .past-time {
     background-color: lightsalmon;
-    border: 2px dashed black;
-    color: white;
+    border: 2px solid black;
+    color: black;
 }
 
 /*IF TASKS ARE AT CURRENT HOUR*/
 .now-time {
-    background-color: grey;
+    background-color: lightgray;
+    border: 2px solid black;
+    color: black;
 }
 
 /*IF TASKS ARE AT A FUTURE HOUR*/
